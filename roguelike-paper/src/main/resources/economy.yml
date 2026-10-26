@@ -1,0 +1,12 @@
+# Integer Coins. Unlisted items have no liquidation value. Containers are not
+# recursively liquidated, so contents cannot be counted twice.
+rebirth-bonus-basis-points: 1000
+values:
+  OAK_LOG: 2
+  COBBLESTONE: 1
+  COAL: 4
+  RAW_IRON: 10
+  IRON_INGOT: 10
+  DIAMOND: 80
+  GOLD_INGOT: 20
+  EMERALD: 40

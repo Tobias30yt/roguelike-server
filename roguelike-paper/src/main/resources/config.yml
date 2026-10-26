@@ -1,0 +1,14 @@
+# Restart required for database, world and timezone settings.
+timezone: Europe/Berlin
+database: roguelike.db
+worlds:
+  max-loaded: 4
+  max-active: 100
+  border: 512
+  checkpoint-seconds: 30
+economy:
+  max-balance: 1000000000000
+reset:
+  automatic: true
+  month: 1
+  day: 1

@@ -1,0 +1,10 @@
+target/
+.tools/
+.runtime/
+dist/
+*.db
+*.db-shm
+*.db-wal
+*.log
+!docs/evidence/*.log
+.idea/

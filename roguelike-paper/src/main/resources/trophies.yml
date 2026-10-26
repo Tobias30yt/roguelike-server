@@ -1,0 +1,9 @@
+# Ownership lives in SQLite. Display entities are cosmetic and have no item value.
+trophies:
+  first_run: {name: Erster Run, rarity: common}
+  hundred_runs: {name: Hundert Abenteuer, rarity: epic}
+  hundred_deaths: {name: Unbeugsam, rarity: epic}
+  survivor: {name: Ueberlebenskuenstler, rarity: rare}
+  rebirth_10: {name: Zehn Leben, rarity: epic}
+  rebirth_50: {name: Legende, rarity: legendary}
+  autumn_2026: {name: Herbstabenteuer 2026, rarity: seasonal}

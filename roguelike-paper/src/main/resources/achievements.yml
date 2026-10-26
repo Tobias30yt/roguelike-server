@@ -1,0 +1,27 @@
+# Scopes: lifetime, annual, run. Metrics: runs, deaths, coins, survival, rebirths.
+# Run scope evaluates the latest settled run. Other scopes aggregate statistics.
+achievements:
+  first_run:
+    scope: lifetime
+    metric: runs
+    threshold: 1
+    coins: 50
+    trophy: first_run
+  ten_runs:
+    scope: annual
+    metric: runs
+    threshold: 10
+    coins: 250
+    trophy: ''
+  hundred_runs:
+    scope: lifetime
+    metric: runs
+    threshold: 100
+    coins: 1000
+    trophy: hundred_runs
+  long_survival:
+    scope: run
+    metric: survival
+    threshold: 1800
+    coins: 100
+    trophy: survivor

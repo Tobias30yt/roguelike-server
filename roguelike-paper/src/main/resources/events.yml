@@ -1,0 +1,9 @@
+# Each event uses an inclusive start and exclusive end in the configured timezone.
+# Rewards are virtual Coins/trophies; no expiring physical item is emitted.
+events:
+  autumn_survivor:
+    start: '2026-09-01T00:00:00'
+    end: '2026-12-01T00:00:00'
+    trigger: run_complete
+    coins: 250
+    trophy: autumn_2026

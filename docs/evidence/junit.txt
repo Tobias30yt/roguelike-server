@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.database.SqliteDatabaseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 s -- in dev.roguelike.database.SqliteDatabaseTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.economy.EconomyTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in dev.roguelike.economy.EconomyTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.leaderboard.LeaderboardTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in dev.roguelike.leaderboard.LeaderboardTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.market.MarketTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in dev.roguelike.market.MarketTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.rebirth.RebirthTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s -- in dev.roguelike.rebirth.RebirthTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.reset.ResetTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in dev.roguelike.reset.ResetTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.run.RunRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in dev.roguelike.run.RunRepositoryTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.trade.TradeRecoveryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in dev.roguelike.trade.TradeRecoveryTest
+-------------------------------------------------------------------------------
+Test set: dev.roguelike.unlock.UnlockTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in dev.roguelike.unlock.UnlockTest

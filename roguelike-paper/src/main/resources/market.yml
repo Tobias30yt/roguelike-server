@@ -1,0 +1,19 @@
+# Virtual, nonredeemable assets. Prices follow a bounded marginal supply curve.
+# Each unit is priced separately; reversing a trade always loses the fee.
+volatility-basis-points: 100
+tick-seconds: 60
+assets:
+  emerald_index:
+    price: 100
+    minimum: 20
+    maximum: 10000
+    liquidity: 10000
+    impact: 1
+    fee-basis-points: 100
+  adventurer_bond:
+    price: 50
+    minimum: 10
+    maximum: 5000
+    liquidity: 20000
+    impact: 1
+    fee-basis-points: 100

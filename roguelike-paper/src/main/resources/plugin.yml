@@ -1,0 +1,42 @@
+name: Roguelike
+version: 0.1.0
+main: dev.roguelike.core.RoguelikePlugin
+api-version: '26.3'
+description: Persistent multiplayer roguelike
+author: Roguelike
+commands:
+  hub:
+    permission: roguelike.play
+  world:
+    permission: roguelike.play
+  upgrades:
+    permission: roguelike.play
+  unlocks:
+    permission: roguelike.play
+  rebirth:
+    permission: roguelike.play
+  balance:
+    permission: roguelike.play
+  pay:
+    permission: roguelike.play
+  market:
+    permission: roguelike.play
+  trade:
+    permission: roguelike.play
+  plot:
+    permission: roguelike.play
+  trophies:
+    permission: roguelike.play
+  stats:
+    permission: roguelike.play
+  leaderboard:
+    permission: roguelike.play
+  season:
+    permission: roguelike.play
+  roguelike:
+    permission: roguelike.admin
+permissions:
+  roguelike.admin:
+    default: op
+  roguelike.play:
+    default: true

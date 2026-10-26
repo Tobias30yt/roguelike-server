@@ -1,0 +1,7 @@
+# Values are copied into the run profile at creation; edits affect future runs.
+base-height: 68
+amplitude: 9
+island-gap-threshold: 0.72
+coal-rarity: 61
+iron-rarity: 83
+diamond-rarity: 311

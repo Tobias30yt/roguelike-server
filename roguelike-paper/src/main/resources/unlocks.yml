@@ -1,0 +1,118 @@
+# Content not in starter-materials or an owned unlock is unavailable in runs.
+# Material patterns use a trailing * only. Content unlocks apply immediately;
+# generation-feature is frozen when a world is created.
+starter-materials:
+  - AIR
+  - OAK_*
+  - WOODEN_*
+  - STICK
+  - CRAFTING_TABLE
+  - CHEST
+  - FURNACE
+  - TORCH
+  - COAL
+  - CHARCOAL
+  - COAL_ORE
+  - COBBLESTONE
+  - STONE
+  - DIRT
+  - GRASS_BLOCK
+  - GRAVEL
+  - SAND
+  - FLINT
+  - APPLE
+  - WHEAT*
+  - BREAD
+  - BEEF
+  - COOKED_BEEF
+  - PORKCHOP
+  - COOKED_PORKCHOP
+  - CHICKEN
+  - COOKED_CHICKEN
+  - MUTTON
+  - COOKED_MUTTON
+  - LEATHER
+  - LEATHER_*
+  - WHITE_WOOL
+  - WHITE_BED
+  - STRING
+  - BONE
+  - BONE_MEAL
+  - ROTTEN_FLESH
+  - FEATHER
+  - EGG
+  - STONE_BRICKS
+unlocks:
+  stone_tools:
+    category: tools
+    description: Steinwerkzeuge und Steinschwert
+    price: 100
+    materials: [STONE_PICKAXE, STONE_AXE, STONE_SHOVEL, STONE_HOE, STONE_SWORD]
+  iron:
+    category: resources
+    description: Eisen und Eisenausruestung; Erz ab dem naechsten Run
+    price: 500
+    requires: [stone_tools]
+    materials: [IRON_*, RAW_IRON, RAW_IRON_BLOCK, BUCKET, WATER_BUCKET, SHIELD, SHEARS, ANVIL]
+    generation-feature: iron
+  diamond:
+    category: tools
+    description: Diamanten; Erz ab dem naechsten Run
+    price: 2500
+    requires: [iron]
+    materials: [DIAMOND, DIAMOND_*]
+    generation-feature: diamond
+  netherite:
+    category: tools
+    description: Netherit-Verarbeitung
+    price: 10000
+    requires: [diamond]
+    materials: [NETHERITE_*, ANCIENT_DEBRIS, SMITHING_TABLE]
+  desert:
+    category: biomes
+    description: Wuestenbiome in neuen Welten
+    price: 300
+    materials: [SANDSTONE, CACTUS, DEAD_BUSH]
+    generation-feature: desert
+  ruins:
+    category: structures
+    description: Ruinen in neuen Welten
+    price: 300
+    materials: [MOSSY_COBBLESTONE, MOSSY_STONE_BRICKS]
+    generation-feature: ruins
+  archery:
+    category: weapons
+    description: Boegen und Pfeile
+    price: 250
+    materials: [BOW, CROSSBOW, ARROW]
+  enchanting:
+    category: enchantments
+    description: Verzauberungen verwenden
+    price: 1800
+    requires: [diamond]
+    materials: [ENCHANTING_TABLE, ENCHANTED_BOOK, LAPIS_LAZULI, BOOK, BOOKSHELF]
+  starter_food:
+    category: starting_perks
+    description: Optional 3 Brote beim Start
+    price: 200
+    generation-feature: perk_food
+  starter_torches:
+    category: starting_perks
+    description: Optional 8 Fackeln beim Start
+    price: 150
+    generation-feature: perk_torches
+  farming:
+    category: recipes
+    description: Erweiterte Nahrung und Landwirtschaft
+    price: 250
+    materials: [CARROT, POTATO, BAKED_POTATO, BEETROOT, BEETROOT_SEEDS, SUGAR_CANE, SUGAR, PUMPKIN, PUMPKIN_SEEDS, MELON_SLICE, MELON_SEEDS]
+  building:
+    category: blocks
+    description: Glas, Ziegel und weitere Baubloecke
+    price: 200
+    materials: [GLASS, GLASS_PANE, BRICKS, BRICK, CLAY, CLAY_BALL, STONE_BRICK_*, OAK_*]
+  armor:
+    category: armor
+    description: Kettenruestung
+    price: 400
+    materials: [CHAINMAIL_*]

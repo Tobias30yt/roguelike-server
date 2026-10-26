@@ -1,0 +1,3 @@
+# Persistent 16x16 plots, with one chunk of space between neighbours.
+# Decorative materials only: containers, machinery, liquids and explosives are excluded.
+palette: [OAK_PLANKS, OAK_LOG, STONE_BRICKS, BRICKS, GLASS, WHITE_CONCRETE, BLUE_CONCRETE, GREEN_CONCRETE, GOLD_BLOCK, QUARTZ_BLOCK, GLOWSTONE, MOSSY_COBBLESTONE]

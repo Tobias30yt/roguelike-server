@@ -1,0 +1,5 @@
+base-cost: 10000
+cost-per-level: 5000
+completed-runs-per-level: 5
+reset-unlocks: true
+reset-balance: true
